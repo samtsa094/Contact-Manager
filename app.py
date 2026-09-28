@@ -38,5 +38,5 @@ def add():
     mongo.db.Contacts.insert_one(document)
     flash("Successfully added a contact")
     return redirect("/")
-if __name__ == "__main__":
-    app.run(debug = True)
+# if __name__ == "__main__":
+#     app.run(debug = True)
